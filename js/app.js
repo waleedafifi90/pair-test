@@ -4,6 +4,7 @@
 // LinkedIn: https://www.linkedin.com/in/walafifi/
 
 'use strict';
+
 let nameU = prompt('name');
 let age = prompt('age');
 
