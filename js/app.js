@@ -5,10 +5,12 @@
 
 'use strict';
 
-let userName = prompt( 'Please enter your name' );
+let nameU = prompt('name');
+let age = prompt('age');
 
-function printName( name ) {
-  console.log( `your name is ${name}` );
+
+function printName (name,age){
+    console.log(name,age)
 }
 
-printName( userName );
+printName(nameU,age);
