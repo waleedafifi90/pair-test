@@ -14,3 +14,8 @@ function printName (name,age){
 }
 
 printName(nameU,age);
+
+const fun = function(name,age){
+    console.log('full name: ',name, age);
+}
+fun('rawan','khasawneh');
